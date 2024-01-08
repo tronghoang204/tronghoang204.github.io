@@ -1,0 +1,92 @@
+
+  .nut{
+    display: flex;
+    justify-content: space-between;
+  }
+  .nut1:hover{
+    background-color: #049661;
+    cursor: pointer;
+  }
+  .nut1{
+    text-align: center;
+    background-color: #04AA6D;
+    color: #ffffff;
+    border-radius : 4px;
+    width: 90px;
+    border-color: #04AA6D;
+  }
+  .duongke{
+    margin: 18px;
+    border-top: 1px solid #d6d6d6 ;
+    border-bottom: 1px solid #d6d6d6;
+  }
+  html{
+    font-family:"Segoe UI", Arial, sans-serif ;
+  }
+  .vidu{
+    background-color: #f1f1f1;
+    height: 320px;
+    border-radius: 5px;
+  }
+  .cach{
+    padding:20px 0px 0px 20px ;
+  }
+  .cachthem{
+    padding: 0 0 0 20px;
+  }
+  .vidu1{
+    background-color:  black;
+    margin: 0 20px;
+    border-left: 4px solid #049661;
+  }
+  .content{
+    z-index:1 ;
+    color: white;
+    line-height: 4px;
+    height: 35px;
+    display: flex;
+  }
+  .cach1{
+    z-index:1 ;
+    color: white;
+    margin:10px 10px ;
+  }
+  .cachthem1{
+    padding: 0px 0 0 10px;
+  }
+  .mau{
+    color: red;
+  }
+  .mau1{
+    color: blue;
+    padding: 0 0 0 6px;
+  }
+  .nutthem{
+    width: 140px;
+    height: 35px;
+    line-height: 35px;
+    margin: 0 0 0 20px;
+  }
+  .dong{
+    display: flex;
+  }
+  .mau2{
+    color: red;
+    padding:0 4px;
+    background-color:rgba(222,222,222,0.3) ;
+  }
+  .cuoi{
+    background-color: #ffffcc;
+    padding: 30px 20px;
+  }
+  .nut2{
+    border: 1px solid #888;
+    width: 200px;
+    border-radius: 4px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    align-items: center;
+    display: block;
+  }
+  

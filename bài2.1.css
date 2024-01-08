@@ -1,0 +1,20 @@
+img{
+    width: 700px;
+    height: 490px;
+}
+.dong{
+    text-decoration: none;
+    color: rgb(247, 240, 230);
+}
+#du{
+    text-decoration: none;
+    color: blue;}
+.chinh{
+    font-style: italic;
+}
+html{
+    padding: 20px 20px ;
+    width: 700px;
+    right: 450px;
+    left: 100px;
+}

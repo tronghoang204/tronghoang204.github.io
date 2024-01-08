@@ -1,0 +1,143 @@
+.header{
+    width: 1400px;
+    max-width: 100%;
+    margin: 0px auto;
+    height: 500px;
+    position: relative;
+}
+.heading-img{
+   position: absolute;
+   border-radius: 35px;
+   width: 100%;
+   overflow: hidden;
+   height: 500px;
+}
+.heading-content{
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 40px 0 0 0;
+    font-size: 60px;
+
+}
+.heading-content-item{
+    position: absolute;
+    z-index: 1;
+    padding: 190px 0 0 0;
+    width: 100%;
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+}
+.heading-content-hov{
+   
+   width: 100%;
+   display: flex;
+   justify-content: center;
+}
+.heading-hov:hover{
+cursor: pointer;
+background-color:  rgb(65, 65, 246);
+}
+.heading-hov{
+    border: 1px solid  rgb(19, 19, 250);
+    border-radius: 45px;
+    padding: 17px 45px;
+    margin-top: 345px;
+    color: #fff;
+    font-size: 25px;
+    position: absolute;
+    background-color: rgb(19, 19, 250);
+}
+.grid{
+    width: 1500px;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    padding: 10px 10px;
+}
+
+
+.container-header{
+    padding: 12px 111px;
+}
+.container__content{
+    width: 30%;
+    margin: 0 15px;
+    background-color: #f3f0f0;
+    border-radius: 25px;
+}
+.container__content:hover{
+    background-color: rgb(167, 236, 236);
+    cursor: pointer;
+}
+.container-img{
+    width: 100%;
+    border-radius: 25px;
+    overflow: hidden;
+}
+.container-list{
+    font-size: 20px;
+    padding: 0 12px;
+}
+.container-item{
+    padding: 0 12px;
+}
+.container__info{
+    background-color: #fbf7f7;
+    margin: 0 20px;
+   border-radius: 20px; 
+    padding: 0px 80px 0px 10px;
+}
+.container__info:hover{
+    background-color: rgb(167, 236, 236);
+    cursor: pointer;
+}
+.container__info-header{
+    font-size: 25px;
+    height: 20px;
+    line-height: 20px;
+}
+.footer{
+    border-top: 1px solid #dad7d7;
+    margin-top:50px ;
+    
+}
+.footer__cmr{
+    display: flex;
+}
+.footer-preface{
+    width: 35%;
+    padding: 50px 150px;
+}
+.footer-conect-list{
+    list-style: none;
+}
+.footer-connect{
+    padding: 50px 0;
+}
+.footer-connect-item{
+    color: rgb(110, 110, 247);
+    padding: 8px 0;
+}
+.footer-connect-item:hover{
+    color: #3d3d3d;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.footer__add{
+    display: flex;
+    padding: 0 75px;
+}
+.footer-add-list{
+    padding: 0 20px;
+    font-size: 18px;
+}
+.footer-add-list:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}

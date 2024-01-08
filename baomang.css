@@ -1,0 +1,38 @@
+*{
+    
+    color: white;
+}
+.header{
+    font-size: 30px;
+    padding: 20px;
+    background-color: #fd3c5c ;
+}
+.img{
+    background-color: #fd3c5c;
+        float: left;
+        width: 33.3%;
+        height: 500px;
+ 
+}
+.font{
+    border: 0px solid hsl(0, 0%, 80%);
+    padding: 10px;
+    width: 460px;
+    top: -10px;
+    font-size: 30px;
+    position: relative;
+    vertical-align: auto;
+}
+@media screen and (max-width:600px){
+    .table{
+        width: 100%;
+        margin: 0;
+        flex-direction: column;
+    }
+    
+    .font{
+        width: 100%;
+        margin: 0;
+        flex-direction: column;
+    }
+}
