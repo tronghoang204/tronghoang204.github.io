@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="buoi6 bai6.2.css">
+</head>
+<body>
+    <div>
+        <h1>Các phép toán</h1>
+        <p>Phép cộng
+            <input type="number" id="n1" style="margin-left: 10px;"> +
+            <input type="number" id="n2">
+            <button onclick="tong(); phepcong();">=</button>
+            <input type="number" id="n3" readonly>
+        </p>
+        <p>Phép trừ
+            <input type="number" id="n4" style="margin-left: 22px;"> -
+            <input type="number" id="n5" style="margin-left: 5px;">
+            <button onclick="tru(); pheptru();">=</button>
+            <input type="number" id="n6" readonly>
+        </p>
+        <p>Phép nhân
+            <input type="number" id="n7" style="margin-left: 10px;"> *
+            <input type="number" id="n8" style="margin-left: 1px;">
+            <button onclick="nhan(); phepnhan();">=</button>
+            <input type="number" id="n9" readonly>
+        </p>
+        <p>Phép chia
+            <input type="number" id="n10" style="margin-left: 14px;"> /
+            <input type="number" id="n11" style="margin-left: 5px;">
+            <button onclick="chia(); phepchia();">=</button>
+            <input type="number" id="n12" readonly>
+        </p>
+    </div>
+    <div class="bd2">
+        <h1>Các phép toán vừa thực hiện</h1>
+        <div class="bd21">
+            <div class="bd22" id="bd221">
+                <h2>Phép cộng</h2>
+                <div class="bd23">
+                    <p id="n13"></p>
+                    <p id="n131"></p>
+                    <p id="n14"></p>
+                    <p id="n141"></p>
+                    <p id="kq1"></p>
+                </div>
+            </div>
+            <div class="bd22" id="bd222">
+                <h2>Phép trừ</h2>
+                <div class="bd23">
+                    <p id="n15"></p>
+                    <p id="n151"></p>
+                    <p id="n16"></p>
+                    <p id="n161"></p>
+                    <p id="kq2"></p>
+                </div>
+            </div>
+            <div class="bd22" id="bd223">
+                <h2>Phép nhân</h2>
+                <div class="bd23">
+                    <p id="n17"></p>
+                    <p id="n171"></p>
+                    <p id="n18"></p>
+                    <p id="n181"></p>
+                    <p id="kq3"></p>
+                </div>
+            </div>
+            <div class="bd22" id="bd224">
+                <h2>Phép chia</h2>
+                <div class="bd23">
+                    <p id="n19"></p>
+                    <p id="n191"></p>
+                    <p id="n20"></p>
+                    <p id="n201"></p>
+                    <p id="kq4"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="buoi6 bai6.2.js"></script>
+</body>
+</html>

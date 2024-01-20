@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Đăng ký thông tin</title>
+        <style>
+            body {
+                line-height: 40px;
+            }
+            .error {
+                color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 style="color: orange">FORM ĐĂNG KÝ</h1>
+        <form id="registrationForm">
+            <label for="firstName">Họ:</label>
+            <input type="text" id="firstName" name="firstName" required />
+
+            <br />
+            <label for="lastName">Tên:</label>
+            <input type="text" id="lastName" name="lastName" required />
+
+            <br />
+
+            <label for="dob">Ngày sinh:</label>
+            <input type="date" id="dob" name="dob" required />
+
+            <br />
+
+            <label>Giới tính:</label>
+            <input
+                type="radio"
+                id="males"
+                name="genders"
+                value="male"
+                required
+            />
+            <label for="male">Nam</label>
+            <input
+                type="radio"
+                id="females"
+                name="genders"
+                value="female"
+                required
+            />
+            <label for="female">Nữ</label>
+
+            <br />
+
+            <label for="phone">Số điện thoại:</label>
+            <input
+                type="tel"
+                id="phone"
+                name="phone"
+                pattern="[0-9]{10}"
+                required
+            />
+            <span class="error" id="phoneError"></span>
+
+            <br />
+
+            <label for="hobbies">Sở thích:</label>
+            <input type="radio" id="male" name="gender" value="male" required />
+            <label for="male">Đọc sách</label>
+            <input
+                type="radio"
+                id="female"
+                name="gender"
+                value="female"
+                required
+            />
+            <label for="female">Xem phim</label>
+            <input
+                type="radio"
+                id="female"
+                name="gender"
+                value="female"
+                required
+            />
+            <label for="female">Nghe nhạc</label>
+            <input
+                type="radio"
+                id="female"
+                name="gender"
+                value="female"
+                required
+            />
+            <label for="female">Đá bóng</label>
+
+            <br />
+
+            <label for="other">Khác:</label>
+            <input type="text" id="other" name="other" />
+
+            <br />
+
+            <button type="button" onclick="validateForm()">Submit</button>
+            <button type="button" onclick="validateForm()">Reset</button>
+        </form>
+
+        <!-- <script>
+  function validateForm() {
+    // Lấy giá trị từ các trường nhập liệu
+    var fullName = document.getElementById('fullName').value;
+    var phone = document.getElementById('phone').value;
+
+    // Kiểm tra nếu họ tên hoặc số điện thoại không được nhập
+    if (fullName === '' || phone === '') {
+      document.getElementById('phoneError').innerText = 'Họ tên và số điện thoại là bắt buộc.';
+    } else {
+      // Nếu nhập đủ thông tin, xóa thông báo lỗi
+      document.getElementById('phoneError').innerText = '';
+
+      // Thực hiện các hành động khác nếu cần
+      // Ví dụ: Gửi dữ liệu đăng ký đi, hiển thị thông báo thành công, v.v.
+    }
+  }
+ </script> -->
+        <!-- <script>
+    function validateForm(){
+    var X;
+    x=document. forms ["firstName"] ["lastName"] .value;
+    if (x==""){
+        alert( "Bạn chưa nhập họ") ;
+    return false;
+    }
+        x=document. getElementById ("lastName") .value;
+    if(x==""){
+        alert("Bạn chưa nhập tên");
+        return false;
+        x=document.getElementById("phone"). value;
+    if(isNaN(x) || length(x)==0| |length(x)>10){
+        alert( "điện thoại phải là số, mời nhập lại");
+    return false;
+            }
+        }
+    }
+</script> -->
+        <script>
+            function validateForm() {
+                // Lấy giá trị từ các trường nhập liệu
+                var firstName = document.getElementById("firstName").value;
+                var lastName = document.getElementById("lastName").value;
+                var phone = document.getElementById("phone").value;
+                // Kiểm tra nếu họ tên hoặc số điện thoại không được nhập
+                if (lastName === "" && firstName === "" && phone === "") {
+                    alert(
+                        "Họ Tên và số điện thoại là bắt buộc. Vui lòng nhập đủ thông tin."
+                    );
+                } else if (lastName === "" && firstName === "") {
+                    alert("Họ và Tên là bắt buộc. Vui lòng nhập đủ thông tin.");
+                } else if (firstName === "") {
+                    alert("Họ là bắt buộc. Vui lòng nhập đủ thông tin.");
+                } else if (
+                    phone === "" ||
+                    phone.length < 10 ||
+                    phone.length > 10
+                ) {
+                    alert(
+                        "số điện thoại không hợp lệ. Vui lòng nhập đủ thông tin."
+                    );
+                    // Nếu nhập đủ thông tin, thực hiện các hành động khác nếu cần
+                    // Ví dụ: Gửi dữ liệu đăng ký đi, hiển thị thông báo thành công, v.v.
+                } else if (lastName === "") {
+                    alert("Tên là bắt buộc. Vui lòng nhập đủ thông tin.");
+                } else {
+                    alert("Đăng ký thành công");
+                }
+            }
+        </script>
+    </body>
+</html>
