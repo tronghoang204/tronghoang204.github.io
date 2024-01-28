@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main8{
+    width: 100%;
+    height: 800px;
+  
+    position: relative;
+}
+
+.mainchu{
+  
+    width: 90%;
+    height: 200px;
+    position: absolute;
+    text-align: center;
+    margin-left: 80px;
+    padding-left: 50px;
+}
+.anh img{
+    position: absolute;
+    width: 100%;
+}
+.main8con1{
+    position: absolute;
+    
+    width: 90%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.main8concon{
+    width: 23%;
+    height: 100%;
+
+    object-fit: cover;
+}
+.main8concon img{
+    object-fit: cover;
+    width: 100%;
+}
+.main8con1 p{
+    font-family: 'Mulish', sans-serif;
+    color: rgba(0, 128, 0, 0.875);
+    font-size: 25px;
+}
+.chu{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.mainchu9{
+
+    position: absolute;
+    width:400px;
+    height: 80px;
+    margin-top: 200px;
+    margin-left: 300px;
+
+}
+.mainchu7{
+    position: absolute;
+    width:600px;
+    height: 400px;
+
+    margin-left: 800px;
+    margin-top: 300px;
+    text-align: right;
+    color: white;
+
+}
+.mainchu6{
+    position: absolute;
+    width:800px;
+    height: 600px;
+
+    margin-left: 100px;
+    margin-top: 200px;
+   
+ 
+ 
+}
+
+
+.mainchu4{
+    position: absolute;
+    width:800px;
+    height: 300px;
+
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.mainchu3{
+    position: absolute;
+    width:200px;
+    height: 300px;
+   
+    margin-left: 310px;
+    margin-top: 50px;
+}
