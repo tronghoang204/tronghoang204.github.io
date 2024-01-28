@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@600&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+main {
+    width: 1920px;
+    height: 1080px;
+}
+#banner-9 {
+    width: 1920px;
+    height: 1080px;
+    background-image: url("assets/img-banner-9/Background (4).png");
+}
+
+.text-banner9 {
+    width: 750px;
+    height: 350px;
+    padding-left: 240px;
+    padding-top: 300px;
+}
+.text-banner9 p {
+    color: white;
+    font-family: "Mulish", sans-serif;
+    font-size: 80px;
+    text-align: right;
+}

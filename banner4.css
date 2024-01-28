@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;400;600&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mulish", sans-serif;
+}
+main {
+    width: 1920px;
+    height: 1080px;
+}
+#banner4 {
+    width: 1920px;
+    height: 1080px;
+    background-image: url("assets/img-banner-4/Background(1).png");
+}
+.title {
+    margin-top: 130px;
+    margin-left: 150px;
+    width: 930px;
+    height: 230px;
+    /* margin-bottom: 100px; */
+}
+.text {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-bottom: 65px;
+}
+.text-width {
+    width: 580px;
+}
+.text p {
+    font-size: 35px;
+    font-weight: 200;
+    transition: 1s;
+}
+.text p:hover {
+    color: orange;
+}
+.btnClick {
+    width: 200px;
+    height: 40px;
+    background-color: #486138;
+    text-align: center;
+    transition: 1s;
+}
+.btnClick a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.btnClick:hover {
+    background-color: orange;
+    cursor: pointer;
+}
+.title p:nth-child(1) {
+    font-size: 40px;
+    font-weight: 400;
+}
+.title p:nth-child(2) {
+    font-size: 80px;
+    color: #829c2d;
+    font-weight: 600;
+}
+.img-con {
+    width: 620px;
+    height: 520px;
+    transition: 1s;
+}
+.img-con:hover {
+    transform: scale(1.05);
+}
+.img {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}

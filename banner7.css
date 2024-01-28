@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;600&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mulish", sans-serif;
+}
+main {
+    width: 1920px;
+    height: 1080px;
+}
+#banner7 {
+    width: 1920px;
+    height: 1080px;
+    background-image: url("assets/img-banner-7/Background (3).png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.text-banner7 {
+    color: white;
+    text-align: right;
+    position: absolute;
+    top: 430px;
+    right: 130px;
+    width: 875px;
+    height: 530px;
+}
+.text-banner7 p:nth-child(1) {
+    font-weight: 600;
+    font-size: 100px;
+    margin-bottom: 80px;
+}
+.text-banner7 p:nth-child(2) {
+    font-weight: 600;
+    font-size: 50px;
+}
+.text-banner7 p:nth-child(3) {
+    font-weight: 200;
+    font-size: 40px;
+    margin-top: 20px;
+}

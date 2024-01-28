@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main {
+    width: 1920px;
+    height: 1080px;
+}
+#img-background {
+    width: 1920px;
+    height: 1080px;
+    background-image: url("assets/img-banner-3/Background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#img-banner {
+    width: 1464px;
+    height: 788px;
+    background-image: url("assets/img-banner-3/banner.png");
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: skewX();
+    z-index: 100;
+}
+#img-banner1 {
+    width: 450px;
+    height: 750px;
+    background-image: url("assets/img-banner-3/banner1 (1).png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 0;
+} 
