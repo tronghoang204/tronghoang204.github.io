@@ -1,165 +1,217 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My website</title>
-    <link rel="stylesheet" href="index.css">
-    <script src="https://kit.fontawesome.com/ef5ee47b32.js" crossorigin="anonymous"></script>
-</head>
-
-<body>
-    <header id="top">
-        <nav>
-            <div class="mainMenu">
-                <li><a href="">Trang chủ</a></li>
-                <li><a href="#item2">Bản thân</a></li>
-                <a href="demo.html"><img src="images/logoM.png" width="100px" alt=""></a>
-                <li><a href="#item3">Sở thích</a></li>
-                <a href=href="demo.html"><img src="images/logoM.png" width="100px" alt=""></a>
-                <li><a href="#item4">Liên Hệ</a></li>
-            </div>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link 
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" 
+    rel="stylesheet" 
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <!-- overlay -->
+    <section id="overlay"></section>
+    <!-- header -->
+    <header>
+      <div class="container">
+        <nav class="navbar">
+          <!-- logo -->
+          <div class="navbar__logo">
+            <img src="./img/logoH.jpg" alt="website logo" />
+          </div>
+          <!-- links -->
+          <ul class="navbar__links">
+            <a href=""><button class="navbar__btn">Home</button></a>
+            <a href="#things"><button class="navbar__btn">Giới thiệu</button></a>
+            <a href="#works"><button class="navbar__btn">Bài tập</button></a>
+            <a href="#footer"><button class="navbar__btn">Contact</button></a>
+          </ul>
+          <!-- menu button -->
+          <div class="navbar__icons">
+            <div class="navbar__icon"></div>
+          </div>
         </nav>
+      </div>
     </header>
-    <main>
-        <section class="banner">
-            <a href=""><img src="ảnh.jpg" alt=""></a>
-        </section>
-
-        <section id="item2" class="">
-            <div class="about">
-                <div class="aboutLeft">
-                    <img class="avatar" src="ava.jpg" alt="">
-                    <div class="infomation">
-                        <h3>Nguyễn Trọng Hoàng-222001450</h3>
-                        <p>CNTT-D2022A</p>
-                    </div>
-                </div>
-                <div class="aboutRight">
-                    <h1>Xin chào!</h1>
-                    <p class="textRight">
-                        Tôi tên là Hoàng. Tôi đến từ Hà Nội, năm nay tôi 19 tuổi.
-                        Hiện tại tôi đang là sinh viên năm 2 chuyên ngành công nghệ thông tin tại trường đại học Thủ đô Hà Nội.<br>
-
-                        <br>Sở thích của tôi là: chơi game, đi dạo ngắm cảnh, xem phim.<br>
-
-
-                    </p>
-        </section>
-        <!-- <section id="item" class="">
-            <div class="about">
-                <div class="aboutLeft">
-                    <img class="avatar" src="img/sothich.jpg" alt="">
-                    <div class="infomation">
-                        <h3>Nguyễn Trọng Hoàng</h3>
-                        <p>CNTT-D2022A</p>
-                    </div>
-                </div>
-                <div class="aboutRight">
-                    <h1>Xin chào!</h1>
-                    <p class="textRight">
-                        Tôi tên là Hoàng. Tôi đến từ Hà Nội, năm nay tôi 19 tuổi. Tôi học chuyên ngành công nghệ thông tin trường đại học Thủ đô Hà Nội. 
-                        Hiện tại tôi đang là sinh viên năm 2 tại trường đại học Thủ đô Hà Nội.<br>
-
-                        <br>Sở thích của tôi là: chơi game, đi dạo ngắm cảnh, xem phim.<br>
-
-
-                    </p>
-
-            
-
+    <!-- banner -->
+    <section id="banner">
+      <div class="container">
+        <!-- img -->
+        <div class="banner__img">
+          <img src="./img/bner.jpg" alt="illustration of women" />
         </div>
-         <section>  -->
-            <h1>HOME WORK</h1>
-            <div class="wrapper">
-                <div id="menubar">
-                  <ul class="menulist">
-                   <h3>Buổi 1</h3>
-                    <li class="menuitem"><a href="1.html">bài 1 </a></li> 
-                    <li class="menuitem"><a href="2,1.html">bài 2,1 </a></li>
-                    <li class="menuitem"><a href="2,2.html">bài 2,2</a></li>
-                    <li class="menuitem"><a href="2,3.html">bài 2,3 </a></li>
-                    <li class="menuitem"><a href="3.html">bài 3 </a></li>
-                    <li class="menuitem"><a href="bai4.html">bài 4 </a></li>
-                    <li class="menuitem"><a href="">Web cá nhân</a></li>
-                  </ul>
-                  <ul class="menulist">
-                   <h3>Buổi 2</h3>
-                   <li class="menuitem"><a href="testlab1.html">bài 1 </a></li> 
-                   <li class="menuitem"><a href="bài-2.1.html">bài 2.1 </a></li>
-                   <li class="menuitem"><a href="bài-2.2.html">bài 2.2 </a></li>
-                   <li class="menuitem"><a href="bai3.html">bài 3 </a></li>
-                   <li class="menuitem"><a href="bài 4 buổi 2.html">bài 4 </a></li>
-                   <li class="menuitem"><a href="">Web cá nhân</a></li>
-                  </ul>
-                  <ul class="menulist">
-                   <h3>Buổi 3</h3>
-                   <li class="menuitem"><a href="bai1.1.html">bài lớp</a></li> 
-                   <li class="menuitem"><a href="baomang.html">bài bão mạng </a></li>
-                   <li class="menuitem"><a href="bai1lab3.html">bài 2</a></li>
-                   <li class="menuitem"><a href="baomoi.html">bài báo mới</a></li>
-                   <li class="menuitem"><a href="">Web cá nhân</a></li>
-                  </ul>
-                   <ul class="menulist"> 
-                   <h3>Bài 30% và kiểm tra lại</h3>
-                   <li class="menuitem"><a href="ktra30.html">bài 30% </a></li> 
-                   <li class="menuitem"><a href="baibaiktra.html">bài 30% ktra lại </a></li> 
-                  </ul>
-                  <ul class="menulist">
-                    <h3>Buổi 4</h3>
-                   <li class="menuitem"><a href="buoi4b1.html">bài1</a></li> 
-                   <li class="menuitem"><a href="buoi4b3.html">bài 3 </a></li>
-                   <li class="menuitem"><a href="buoi4b4.html">bài 4</a></li>
-                   <li class="menuitem"><a href="buoi4b5.html">bài 5</a></li>
-                   <li class="menuitem"><a href="">Web cá nhân</a></li>
-                   </ul>
-                   <ul class="menulist">
-                    <h3>Buổi 5</h3>
-                   <li class="menuitem"><a href="bai1.html">bài1</a></li> 
-                   <li class="menuitem"><a href="bai2.html">bài 2 </a></li>
-                   <li class="menuitem"><a href="bai3.html">bài 3</a></li>
-                   <li class="menuitem"><a href="">Web cá nhân</a></li>
-                   </ul>
-                   <ul class="menulist">
-                   
-                    <h3>Buổi 6</h3>
-                   <li class="menuitem"><a href="buoi6 bai4.html">bài4</a></li> 
-                   <li class="menuitem"><a href="buoi6 bai5.html">bài5 </a></li>
-                   <li class="menuitem"><a href="buoi6 bai6.1.html">bài 6.1</a></li>
-                   <li class="menuitem"><a href="buoi6 bai6.2.html">bài 6.2</a></li>
-                   <li class="menuitem"><a href="">Web cá nhân</a></li>
-                   </ul>
-                   <ul class="menulist">
-                       
-                        <h3>Buổi 7</h3>
-                   <li class="menuitem"><a href="buoi7 vd1.html">vd1</a></li> 
-                   <li class="menuitem"><a href="buoi7 vd2.html">vd2</a></li>
-                   <li class="menuitem"><a href="buoi7 bai7.html">bài 7</a></li>
-                   <li class="menuitem"><a href="">Web cá nhân</a></li>
-                   </ul>
-                   <ul class="menulist">
-                 </div>
-               </div>
-
-        </section>
-        
-
-        
-
-
-    </main>
-    <footer>
-        <div class="end">
-
+        <!-- heading -->
+        <div class="banner__heading">
+          <h1>Xin chào mọi người, tôi tên là Hoàng</h1>
+          <p>
+        Tôi là sinh viên năm 2 học tập tại trường Đại học Thủ đô. Đây là Website cá nhân của tôi. Tôi mong mọi người thích nó.
+          </p>
+          <a href="#"><button class="banner__btn">View More</button></a>
+          <div class="banner__socials">
+            <a href="#"><i class="fab fa-dribbble"></i></a>
+            <a href="https://www.facebook.com/hoangcono4"><i class="fab fa-behance"></i></a>
+            <a href="https://www.instagram.com/hoangconn_204/"><i class="fab fa-linkedin-in"></i></a>
+          </div>
         </div>
-        <div id="icon">
-            <a href="https://www.facebook.com/hoangcono4"></a>
-            <a href="https://www.instagram.com/hoangconn_204/"></a>
-            <a href="https://www.facebook.com/hoangcono4"></a>
-            <a href="https://www.instagram.com/hoangconn_204/"></a>
+      </div>
+    </section>
+    <!-- things -->
+    <section id="things">
+      <div class="container">
+        <!-- dec -->
+        <div class="things__dec">
+          <img src="./img/BOOK1.gif.jpg" alt="illustration of leaf" />
         </div>
+        <!-- dec -->
+        <div class="things__dec">
+          <img src="./img/BOOK1.gif.jpg" alt="illustration of leaf" />
+        </div>
+        <!-- heading -->
+        <h2>Giới thiệu</h2>
+        <!-- item 1 -->
+        <div class="things__item">
+          <!-- img -->
+          <img src="./img/gif.gif" alt="illustration of women" />
+          <!-- text -->
+          <div class="things__item--heading">
+            <h3>Sơ qua về cá nhân</h3>
+            <p>
+              Tôi là một cậu sinh viên năm 2 với niềm đam mê với ngành liên quan đến máy tính, tin học nói chung và mảng web nói riêng. Tuy chưa có nhiều kinh nghiệm nhưng tôi đang cố gắng học tập, trau dồi, khám phá và tìm tòi thêm kiến thức cho mình mỗi ngày.
+            </p>
+          </div>
+        </div>
+        <!-- item 2 -->
+        <div class="things__item">
+          <!-- img -->
+          <img src="./img/uudiem.jpg" alt="illustration of women" />
+          <!-- text -->
+          <div class="things__item--heading">
+            <h3>Đôi nét về ngành mình chọn</h3>
+            <p>
+           Sau khi tìm hiểu về ngành này, em nhận thấy ngành phù hợp với định hướng của bản thân. Em muốn tích lũy thêm nhiều kỹ năng, kinh nghiệm để đạt được mục tiêu của mình trong vòng 2-3 năm tới.
+            </p>
+          </div>
+        </div>
+        <!-- item 3 -->
+        <div class="things__item">
+          <!-- img -->
+          <img src="./img/nhuocdiem.webp" alt="illustration of computer" />
+          <!-- text -->
+          <div class="things__item--heading">
+            <h3>Ưu, Nhược điểm</h3>
+            <p>
+              Tôi có thể hoàn thành công việc cá nhân hay những công việc nhóm mà cấp trên đề ra. Ngoại ngữ của mình tầm khá, còn về môn Web của mình cũng chưa có nhiều kinh nghiệm lắm. Đôi lúc gặp rất nhiều khó khăn, mình muốn bỏ cuộc nhưng mình vẫn kiên trì, cố gắng vượt qua.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- works -->
+    <section id="works">
+      <div class="container">
+        <!-- dec -->
+        <div class="works__dec">
+          <img src="./img/BOOK1.gif.jpg" alt="illustration of leaf" />
+        </div>
+        <div class="works__dec">
+          <img src="./img/BOOK1.gif.jpg" alt="illustration of leaf" />
+        </div>
+        <!-- heading -->
+        <h2>Bài tập</h2>
+        <!-- img -->
+        <div class="works__img">
+          <div class="works__img--single">
+            <img src="./img/me.jpg" alt="bag" />
+            <li class="">Buổi 1</li>
+            <li class="menuitem"><a href="buoi7 vd1.html">vd1</a></li>
+          </div>
+          <div class="works__img--single">
+            <img src="./img/me and family.jpg" alt="plate" />
+            <li class="">Buổi 2</li>
+            <li class="menuitem"><a href="buoi7 vd1.html">vd1</a></li>
+          </div>
+          <div class="works__img--single">
+            <img src="./img/me and class.jpg" alt="women" />
+            <li class="">Buổi 3</li>
+            <li class="menuitem"><a href="buoi7 vd1.html">vd1</a></li>
+          </div>
+          <div class="works__img--single">
+            <img src="./img/me and you.jpg" alt="piggy bank" />
+            <li class="">Buổi 4</li>
+            <li class="menuitem"><a href="buoi7 vd1.html">vd1</a></li>
+          </div>
+          <div class="works__img--single">
+            <img src="./img/quansu.jpg" alt="piggy bank" />
+            <li class="">Buổi 5</li>
+            <li class="menuitem"><a href="buoi7 vd1.html">vd1</a></li>
+        </div>
+        <div class="works__img--single">
+          <img src="./img/1m.jpg" alt="piggy bank" />
+          <li class="">Buổi 6</li>
+          <li class="menuitem"><a href="buoi7 vd1.html">vd1</a></li>
+        </div>
+        <div class="works__img--single">
+          <img src="./img/dabong.jpg" alt="piggy bank" />
+          <li class="">Buổi 7</li>
+          <li class="menuitem"><a href="buoi7 vd1.html">vd1</a></li>
+        </div>
+        <div class="works__img--single">
+          <img src="./img/unc.jpg" alt="piggy bank" />
+          <li class="">Kiểm tra 30%</li>
+          <li class="menuitem"><a href="buoi7 vd1.html">vd1</a></li>
+        </div>
+        <!-- btn -->
+        <div class="works__btn">
+          <a href=""><button>View Works</button></a>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer id="footer">
+      <div class="container">
+        <!-- dec -->
+        <div class="footer__dec">
+          <img src="./img/BOOK1.gif.jpg" alt="illustration of leaf" />
+        </div>
+        <!-- img -->
+        <div class="footer__img">
+          <img src="./img/bnr.jpg" alt="illustration of women" />
+        </div>
+        <!-- heading -->
+        <div class="footer__heading">
+          <h1>Contact for me?</h1>
+          <!-- contact -->
+          <div class="footer__contact">
+            <a href="tel: 0969952833">
+              <i class="fas fa-phone-alt"></i>
+              <p>0969952833</p>
+            </a>
+            <a href="mailto: nguyentronghoang8683@gmail.com">
+              <i class="fas fa-envelope"></i>
+              <p>nguyentronghoang8683@gmail.com</p>
+            </a>
+          </div>
+          <div class="banner__socials">
+            <a href="#"><i class="fab fa-dribbble"></i></a>
+            <a href="https://www.facebook.com/hoangcono4"><i class="fab fa-behance"></i></a>
+            <a href="https://www.instagram.com/hoangconn_204/"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
     </footer>
-</body>
-
+    <!-- fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/28c0af3030.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- main js -->
+    <script src="./js/main.js"></script>
+  </body>
 </html>
