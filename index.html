@@ -1,240 +1,396 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- google font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link 
-    href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" 
-    rel="stylesheet" 
-    />
-    <!-- main css -->
-    <link rel="stylesheet" href="index.css" />
-    <title>Portfolio</title>
-  </head>
-  <body>
-    <!-- overlay -->
-    <section id="overlay"></section>
-    <!-- header -->
-    <header>
-      <div class="container">
-        <nav class="navbar">
-          <!-- logo -->
-          <div class="navbar__logo">
-            <img src="logoH.jpg" alt="website logo" />
-          </div>
-          <!-- links -->
-          <ul class="navbar__links">
-            <a href=""><button class="navbar__btn">Home</button></a>
-            <a href="#things"><button class="navbar__btn">Giới thiệu</button></a>
-            <a href="#works"><button class="navbar__btn">Bài tập</button></a>
-            <a href="#footer"><button class="navbar__btn">Contact</button></a>
-          </ul>
-          <!-- menu button -->
-          <div class="navbar__icons">
-            <div class="navbar__icon"></div>
-          </div>
-        </nav>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nguyễn Trọng Hoàng</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header class="l-header" id="header">
+    <nav class="nav bd-container">
+      <a href="#" class="nav-logo">Nguyễn Trọng Hoàng</a>
+      <div class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#home" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#educations" class="nav-link">My skill</a>
+          </li>
+          <li class="nav-item">
+            <a href="#works" class="nav-link">My work</a>
+          </li>
+          <li class="nav-item">
+            <a href="#testimonials" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
       </div>
-    </header>
-    <!-- banner -->
-    <section id="banner">
-      <div class="container">
-        <!-- img -->
-        <div class="banner__img">
-          <img src="bner.jpg" alt="illustration of women" />
+
+      <div class="nav-toggle" id="nav-toggle">
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
+  </header>
+
+  <section class="home" id="home">
+    <div class="home-container bd-container bd-grid">
+      <div class="home-data">
+        <div class="home-greeting">
+          <span>HELLO,</span>
         </div>
-        <!-- heading -->
-        <div class="banner__heading">
-          <h1>Xin chào mọi người, tôi tên là Hoàng</h1>
+        <div class="home-title">
+          <h1>I'm Hoàng Nguyễn</h1>
+        </div>
+        <div class="home-career">
+          <p>23/9/2004- Student</p>
+        </div>
+        <div class="home-description">
           <p>
-        Tôi là sinh viên năm 2 học tập tại trường Đại học Thủ đô. Đây là Website cá nhân của tôi. Tôi mong mọi người thích nó.
+            I was born and raised in Hanoi. Currently I am a second year student studying at Ha Noi Metropolitian University. I am a newbie programmer. This is my website. I hope everyone likes it.
           </p>
-          <a href="#"><button class="banner__btn">View More</button></a>
-          <div class="banner__socials">
-            <a href="#"><i class="fab fa-dribbble"></i></a>
-            <a href="https://www.facebook.com/hoangcono4"><i class="fab fa-behance"></i></a>
-            <a href="https://www.instagram.com/hoangconn_204/"><i class="fab fa-linkedin-in"></i></a>
-          </div>
+        </div>
+        <div class="home-social">
+          <a href="https://www.facebook.com/hoangcono4" class="home-icon" target="_blank"><i class="fab fa-facebook"></i></a>
+          <a href="https://www.instagram.com/hoangconn_204/" class="home-icon" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://github.com/tronghoang204/tronghoang204.github.io" class="home-icon" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+        <div class="home-img">
+          <img src="me1.jpg" alt="" class="home-image" />
         </div>
       </div>
-    </section>
-    <!-- things -->
-    <section id="things">
-      <div class="container">
-        <!-- dec -->
-        <div class="things__dec">
-          <img src="BOOK1.gif.jpg" alt="illustration of leaf" />
-        </div>
-        <!-- dec -->
-        <div class="things__dec">
-          <img src="BOOK1.gif.jpg" alt="illustration of leaf" />
-        </div>
-        <!-- heading -->
-        <h2>Giới thiệu</h2>
-        <!-- item 1 -->
-        <div class="things__item">
-          <!-- img -->
-          <img src="gif.gif" alt="illustration of women" />
-          <!-- text -->
-          <div class="things__item--heading">
-            <h3>Sơ qua về cá nhân</h3>
-            <p>
-              Tôi là một cậu sinh viên năm 2 với niềm đam mê với ngành liên quan đến máy tính, tin học nói chung và mảng web nói riêng. Tuy chưa có nhiều kinh nghiệm nhưng tôi đang cố gắng học tập, trau dồi, khám phá và tìm tòi thêm kiến thức cho mình mỗi ngày.
-            </p>
-          </div>
-        </div>
-        <!-- item 2 -->
-        <div class="things__item">
-          <!-- img -->
-          <img src="uudiem.jpg" alt="illustration of women" />
-          <!-- text -->
-          <div class="things__item--heading">
-            <h3>Đôi nét về ngành mình chọn</h3>
-            <p>
-           Sau khi tìm hiểu về ngành này, em nhận thấy ngành phù hợp với định hướng của bản thân. Em muốn tích lũy thêm nhiều kỹ năng, kinh nghiệm để đạt được mục tiêu của mình trong vòng 2-3 năm tới.
-            </p>
-          </div>
-        </div>
-        <!-- item 3 -->
-        <div class="things__item">
-          <!-- img -->
-          <img src="nhuocdiem.webp" alt="illustration of computer" />
-          <!-- text -->
-          <div class="things__item--heading">
-            <h3>Ưu, Nhược điểm</h3>
-            <p>
-              Tôi có thể hoàn thành công việc cá nhân hay những công việc nhóm mà cấp trên đề ra. Ngoại ngữ của mình tầm khá, còn về môn Web của mình cũng chưa có nhiều kinh nghiệm lắm. Đôi lúc gặp rất nhiều khó khăn, mình muốn bỏ cuộc nhưng mình vẫn kiên trì, cố gắng vượt qua.
-            </p>
-          </div>
-        </div>
+    </div>
+  </section>
+
+  <section class="educations" id="educations">
+    <h2 class="section-title">MY SKILL</h2>
+    <p class="section-subtitle">
+      Năng lực bản thân và chuyên môn.
+    </p>
+    <div class="educations-container bd-container bd-grid">
+      <div class="educations-data">
+      <div class="educations-img">
+        <img src="gif.gif" alt="" />
+        </div>  
+        <small>Thiết kế đồ hoạ</small>
+        <h3 class="educations-title">Trình độ: 60%</h3>
+        <p class="educations-description">
+          Mức: Khá
+        </p>
       </div>
-    </section>
-    <!-- works -->
-    <section id="works">
-      <div class="container">
-        <!-- dec -->
-        <div class="works__dec">
-          <img src="BOOK1.gif.jpg" alt="illustration of leaf" />
-        </div>
-        <div class="works__dec">
-          <img src="BOOK1.gif.jpg" alt="illustration of leaf" />
-        </div>
-        <!-- heading -->
-        <h2>Bài tập</h2>
-        <!-- img -->
-        <div class="works__img">
-          <div class="works__img--single">
-            <img src="me.jpg" alt="bag" />
-            <li class="">Buổi 1</li>
-            <li class="menuitem"><a href="1.html">Bài 1</a></li>
-              <li class="menuitem"><a href="2,1.html">Bài 2.1</a></li>
-              <li class="menuitem"><a href="2,2.html">Bài 2.2</a></li>
-              <li class="menuitem"><a href="2,3.html">Bài 2.3</a></li>
-              <li class="menuitem"><a href="3.html">Bài 3</a></li>
-              <li class="menuitem"><a href="bai4.html">Bài 4</a></li>
-          </div>
-          <div class="works__img--single">
-            <img src="me and family.jpg" alt="plate" />
-            <li class="">Buổi 2</li>
-            <li class="menuitem"><a href="testlab1.html">Bài 1</a></li>
-              <li class="menuitem"><a href="bài-2.1.html">Bài 2.1</a></li>
-              <li class="menuitem"><a href="bài-2.2.html">Bài 2.2</a></li>
-              <li class="menuitem"><a href="bai3.html">Bài 3</a></li>
-              <li class="menuitem"><a href="bài 4 buổi 2.html">Bài 4</a></li>
-          </div>
-          <div class="works__img--single">
-            <img src="me and class.jpg" alt="women" />
-            <li class="">Buổi 3</li>
-            <li class="menuitem"><a href="bai1.1.html">Bài 1</a></li>
-              <li class="menuitem"><a href="bai1lab3.html">Bài 2</a></li>
-              <li class="menuitem"><a href="baomang.html">Bài bão mạng</a></li>
-              <li class="menuitem"><a href="baomoi.html">Bài báo mới</a></li>
-          </div>
-          <div class="works__img--single">
-            <img src="me and you.jpg" alt="piggy bank" />
-            <li class="">Buổi 4</li>
-            <li class="menuitem"><a href="buoi4b1.html">Bài 1</a></li>
-              <li class="menuitem"><a href="buoi4b3.html">Bài 3</a></li>
-              <li class="menuitem"><a href="buoi4b4.html">Bài 4</a></li>
-              <li class="menuitem"><a href="buoi4b5.html">Bài 5</a></li>
-          </div>
-          <div class="works__img--single">
-            <img src="quansu.jpg" alt="piggy bank" />
-            <li class="">Buổi 5</li>
-            <li class="menuitem"><a href="bai1.html">Bài 1</a></li>
-              <li class="menuitem"><a href="bai2.html">Bài 2</a></li>
-              <li class="menuitem"><a href="bai3.html">Bài 3</a></li>
-        </div>
-        <div class="works__img--single">
-          <img src="1m.jpg" alt="piggy bank" />
-          <li class="">Buổi 6</li>
-          <li class="menuitem"><a href="buoi6 bai4.html">Bài 4</a></li>
-            <li class="menuitem"><a href="buoi6 bai5.html">Bài 5</a></li>
-            <li class="menuitem"><a href="buoi6 bai6.1.html">Bài 6.1</a></li>
-            <li class="menuitem"><a href="buoi6 bai6.2.html">Bài 6.2</a></li>
-        </div>
-        <div class="works__img--single">
-          <img src="dabong.jpg" alt="piggy bank" />
-          <li class="">Buổi 7</li>
-          <li class="menuitem"><a href="buoi7 vd1.html">vd1</a></li>
-            <li class="menuitem"><a href="buoi7 vd2.html">vd2</a></li>
-            <li class="menuitem"><a href="buoi7 bai7.html">Bài 7</a></li>
-        </div>
-        <div class="works__img--single">
-          <img src="unc.jpg" alt="piggy bank" />
-          <li class="">Kiểm tra 30%</li>
-          <li class="menuitem"><a href="ktra30.html">Bài ktra 30%</a></li>
-          <li class="menuitem"><a href="baibaiktra.html">Bài ktra 30% làm lại</a></li>
-        </div>
-        <!-- btn -->
-        <div class="works__btn">
-          <a href="https://github.com/tronghoang204/tronghoang204.github.io"><button>View Works</button></a>
-        </div>
+
+      <div class="educations-data">
+      <div class="educations-img">
+          <img src="nhuocdiem.webp" alt="" />
+        </div> 
+        <small>Lập trình C</small>
+        <h3 class="educations-title">Trình độ: 50%</h3>
+        <p class="educations-description">
+          Mức: Trung bình
+        </p>
       </div>
-    </section>
-    <!-- footer -->
-    <footer id="footer">
-      <div class="container">
-        <!-- dec -->
-        <div class="footer__dec">
-          <img src="BOOK1.gif.jpg" alt="illustration of leaf" />
+
+      <div class="educations-data">
+      <div class="educations-img">
+          <img src="uudiem.jpg" alt="" />
+        </div>  
+        <small>Thiết kế Web</small>
+        <h3 class="educations-title">Trình độ: 60%</h3>
+        <p class="educations-description">
+          Mức: Khá
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="works" id="works">
+    <h2 class="section-title">MY WORK</h2>
+    <p class="section-subtitle">
+      Bài tập về nhà từng buổi.
+    </p>
+
+    <div class="works-filter">
+      <select name="works-filter" id="works-filter">
+        <option value="baitapweb">Bài tập</option>
+        <option value="kiemtra">Bài kiểm tra</option>
+      </select>
+    </div>
+
+    <div class="works-slider">
+      <div class="works-container bd-container bd-grid">
+
+        <div class="slide-btn prev">
+          <i class="fas fa-chevron-left"></i>
         </div>
-        <!-- img -->
-        <div class="footer__img">
-          <img src="bnr.jpg" alt="illustration of women" />
+
+        <div class="slide-btn next">
+          <i class="fas fa-chevron-right"></i>
         </div>
-        <!-- heading -->
-        <div class="footer__heading">
-          <h1>Contact for me?</h1>
-          <!-- contact -->
-          <div class="footer__contact">
-            <a href="tel: 0969952833">
-              <i class="fas fa-phone-alt"></i>
-              <p>0969952833</p>
+
+        <div class="works-wrapper">
+          <div class="works-data" data-category="baitapweb">
+            <h3 class="works-title">Buổi 1</h3>
+            </p>
+            <a href="https://222001428dung.000webhostapp.com/Bu%e1%bb%95i%201/" target="_blank" class="works-link">
+              <span>Xem bài tại đây <i class="fas fa-arrow-circle-right"></i></span>
             </a>
-            <a href="mailto: nguyentronghoang8683@gmail.com">
-              <i class="fas fa-envelope"></i>
-              <p>nguyentronghoang8683@gmail.com</p>
+            <a href="https://222001428dung.000webhostapp.com/Bu%e1%bb%95i%201/" target="_blank" class="works-link">
+              <span>Xem bài tại đây <i class="fas fa-arrow-circle-right"></i></span>
+            </a>
+            <a href="https://222001428dung.000webhostapp.com/Bu%e1%bb%95i%201/" target="_blank" class="works-link">
+              <span>Xem bài tại đây <i class="fas fa-arrow-circle-right"></i></span>
+            </a>
+            <a href="https://222001428dung.000webhostapp.com/Bu%e1%bb%95i%201/" target="_blank" class="works-link">
+              <span>Xem bài tại đây <i class="fas fa-arrow-circle-right"></i></span>
+            </a>
+            <a href="https://222001428dung.000webhostapp.com/Bu%e1%bb%95i%201/" target="_blank" class="works-link">
+              <span>Xem bài tại đây <i class="fas fa-arrow-circle-right"></i></span>
+            </a>
+            <a href="https://222001428dung.000webhostapp.com/Bu%e1%bb%95i%201/" target="_blank" class="works-link">
+              <span>Xem bài tại đây <i class="fas fa-arrow-circle-right"></i></span>
             </a>
           </div>
-          <div class="banner__socials">
-            <a href="#"><i class="fab fa-dribbble"></i></a>
-            <a href="https://www.facebook.com/hoangcono4"><i class="fab fa-behance"></i></a>
-            <a href="https://www.instagram.com/hoangconn_204/"><i class="fab fa-linkedin-in"></i></a>
+
+          <div class="works-data" data-category="baitapweb">
+            <h3 class="works-title">Buổi 2</h3>
+
+            <a href="https://222001428dung.000webhostapp.com/Bu%e1%bb%95i%202/" target="_blank" class="works-link">
+              <span>Xem bài tại đây <i class="fas fa-arrow-circle-right"></i></span>
+            </a>
+            <a href="https://222001428dung.000webhostapp.com/Bu%e1%bb%95i%201/" target="_blank" class="works-link">
+              <span>Xem bài tại đây <i class="fas fa-arrow-circle-right"></i></span>
+            </a>
+            <a href="https://222001428dung.000webhostapp.com/Bu%e1%bb%95i%201/" target="_blank" class="works-link">
+              <span>Xem bài tại đây <i class="fas fa-arrow-circle-right"></i></span>
+            </a>
+            <a href="https://222001428dung.000webhostapp.com/Bu%e1%bb%95i%201/" target="_blank" class="works-link">
+              <span>Xem bài tại đây <i class="fas fa-arrow-circle-right"></i></span>
+            </a>
+            <a href="https://222001428dung.000webhostapp.com/Bu%e1%bb%95i%201/" target="_blank" class="works-link">
+              <span>Xem bài tại đây <i class="fas fa-arrow-circle-right"></i></span>
+            </a>
+          </div>
+
+          <div class="works-data" data-category="baitapweb">
+            <h3 class="works-title">Buổi 3</h3>
+
+            <a href="https://222001428dung.000webhostapp.com/Bu%e1%bb%95i%203/" target="_blank" class="works-link">
+              <span>Xem bài tại đây <i class="fas fa-arrow-circle-right"></i></span>
+            </a>
+            <a href="https://222001428dung.000webhostapp.com/Bu%e1%bb%95i%201/" target="_blank" class="works-link">
+              <span>Xem bài tại đây <i class="fas fa-arrow-circle-right"></i></span>
+            </a>
+            <a href="https://222001428dung.000webhostapp.com/Bu%e1%bb%95i%201/" target="_blank" class="works-link">
+              <span>Xem bài tại đây <i class="fas fa-arrow-circle-right"></i></span>
+            </a>
+            <a href="https://222001428dung.000webhostapp.com/Bu%e1%bb%95i%201/" target="_blank" class="works-link">
+              <span>Xem bài tại đây <i class="fas fa-arrow-circle-right"></i></span>
+            </a>
+          </div>
+
+          <div class="works-data" data-category="baitapweb">
+            <h3 class="works-title">Buổi 4</h3>
+        
+            <a href="https://222001428dung.000webhostapp.com/Bu%e1%bb%95i%204/" target="_blank" class="works-link">
+              <span>Xem bài tại đây <i class="fas fa-arrow-circle-right"></i></span>
+            </a>
+            <a href="https://222001428dung.000webhostapp.com/Bu%e1%bb%95i%201/" target="_blank" class="works-link">
+              <span>Xem bài tại đây <i class="fas fa-arrow-circle-right"></i></span>
+            </a>
+            <a href="https://222001428dung.000webhostapp.com/Bu%e1%bb%95i%201/" target="_blank" class="works-link">
+              <span>Xem bài tại đây <i class="fas fa-arrow-circle-right"></i></span>
+            </a>
+            <a href="https://222001428dung.000webhostapp.com/Bu%e1%bb%95i%201/" target="_blank" class="works-link">
+              <span>Xem bài tại đây <i class="fas fa-arrow-circle-right"></i></span>
+            </a>
+          </div>
+          
+          <div class="works-data" data-category="baitapweb">
+            <h3 class="works-title">Buổi 5</h3>
+           
+            <a href="https://222001428dung.000webhostapp.com/Buoi%205/" target="_blank" class="works-link">
+              <span>Xem bài tại đây <i class="fas fa-arrow-circle-right"></i></span>
+            </a>
+            <a href="https://222001428dung.000webhostapp.com/Bu%e1%bb%95i%201/" target="_blank" class="works-link">
+              <span>Xem bài tại đây <i class="fas fa-arrow-circle-right"></i></span>
+            </a>
+            <a href="https://222001428dung.000webhostapp.com/Bu%e1%bb%95i%201/" target="_blank" class="works-link">
+              <span>Xem bài tại đây <i class="fas fa-arrow-circle-right"></i></span>
+            </a>
+          </div>
+
+          <div class="works-data" data-category="baitapweb">
+            <h3 class="works-title">Buổi 6</h3>
+
+            <a href="https://222001428dung.000webhostapp.com/Buoi%206/" target="_blank" class="works-link">
+              <span>Xem bài tại đây <i class="fas fa-arrow-circle-right"></i></span>
+            </a>
+            <a href="https://222001428dung.000webhostapp.com/Bu%e1%bb%95i%201/" target="_blank" class="works-link">
+              <span>Xem bài tại đây <i class="fas fa-arrow-circle-right"></i></span>
+            </a>
+            <a href="https://222001428dung.000webhostapp.com/Bu%e1%bb%95i%201/" target="_blank" class="works-link">
+              <span>Xem bài tại đây <i class="fas fa-arrow-circle-right"></i></span>
+            </a>
+            <a href="https://222001428dung.000webhostapp.com/Bu%e1%bb%95i%201/" target="_blank" class="works-link">
+              <span>Xem bài tại đây <i class="fas fa-arrow-circle-right"></i></span>
+            </a>
+          </div>
+
+          <div class="works-data" data-category="baitapweb">
+            <h3 class="works-title">Buổi 7</h3>
+
+            <a href="https://222001428dung.000webhostapp.com/Buoi%207/" target="_blank" class="works-link">
+              <span>Xem bài tại đây <i class="fas fa-arrow-circle-right"></i></span>
+            </a>
+            <a href="https://222001428dung.000webhostapp.com/Bu%e1%bb%95i%201/" target="_blank" class="works-link">
+              <span>Xem bài tại đây <i class="fas fa-arrow-circle-right"></i></span>
+            </a>
+            <a href="https://222001428dung.000webhostapp.com/Bu%e1%bb%95i%201/" target="_blank" class="works-link">
+              <span>Xem bài tại đây <i class="fas fa-arrow-circle-right"></i></span>
+            </a>
+          </div>
+
+
+          <div class="works-data" data-category="kiemtra">
+            <h3 class="works-title">Kiểm tra 30%</h3>
+
+            <a href="https://222001428dung.000webhostapp.com/30/" target="_blank" class="works-link">
+              <span>Xem bài tại đây <i class="fas fa-arrow-circle-right"></i></span>
+            </a>
+          </div>
+
+          <div class="works-data" data-category="kiemtra">
+            <h3 class="works-title">Kiểm tra 30% làm lại</h3>
+
+            <a href="https://222001428dung.000webhostapp.com/Bai30phantramlamlai/" target="_blank" class="works-link">
+              <span>Xem bài tại đây <i class="fas fa-arrow-circle-right"></i></span>
+            </a>
+          </div>
+
+          <div class="works-data" data-category="kiemtra">
+            <h3 class="works-title">Kiểm tra 60%</h3>
+
+            <a href="https://tronghoang204.github.io/" target="_blank" class="works-link">
+              <span>Xem bài tại đây <i class="fas fa-arrow-circle-right"></i></span>
+            </a>
           </div>
         </div>
+
+        <div class="pagination"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonials" id="testimonials">
+    <h2 class="section-title">About</h2>
+    <p class="section-subtitle">
+    Đánh giá bản thân.
+    </p>
+
+    <div class="testimonial-slider">
+      <div class="testimonial-container bd-container bd-grid">
+        <div class="testimonial-wrapper">
+          <div class="testimonial-data">
+           
+            <h3 class="testimonial-name">Ưu điểm</h3>
+            <p class="testimonial-description">
+              Nhiệt tình, tích cực trong học tập, làm việc cá nhân và nhóm tốt, có tinh thần học hỏi mọi người xung quanh.
+            </p>
+          </div>
+
+          <div class="testimonial-data">
+        
+            <h3 class="testimonial-name">Nhược điểm</h3>
+            <p class="testimonial-description">
+             Thiếu sự cần cù, tư duy chưa tốt, chưa tự tin, đôi lúc chểnh mảng trong công việc.
+            </p>
+          </div>
+
+          <div class="testimonial-data">
+          
+            <h3 class="testimonial-name">Mục tiêu</h3>
+            <p class="testimonial-description">
+              Em muốn tích lũy thêm nhiều kỹ năng, kinh nghiệm để đạt được mục tiêu của mình trong vòng 2-3 năm tới.
+            </p>
+          </div>
+        </div>
+
+        <div class="pagination"></div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="contact" id="contact">
+    <h2 class="section-title">CONTACT</h2>
+    <p class="section-subtitle">
+      Đóng góp, ý kiến, đánh giá.
+    </p>
+      <form class="contact-form" id="contact-form" novalidate>
+        <h3 class="form-header">
+          Send me a message
+        </h3>
+
+        <div class="contact-inputs">
+          <div class="form-control">
+            <input type="text" name="name" placeholder="Full Name" class="contact-input" />
+            <small class="form-error"></small>
+          </div>
+          <div class="form-control">
+            <input type="email" name="email" placeholder="Your Email" class="contact-input" />
+            <small class="form-error"></small>
+          </div>
+        </div>
+        <div class="form-control">
+          <input type="text" name="subject" placeholder="Subject" class="contact-input" />
+          <small class="form-error"></small>
+        </div>
+        <div class="form-control">
+          <textarea name="message" name="message" id="message" cols="0" rows="7" placeholder="Your Message"
+            class="contact-input"></textarea>
+          <small class="form-error"></small>
+        </div>
+        <div class="contact-button">
+          <button type="submit" class="contact-send">
+      
+            <i class="fas fa-paper-plane"></i>
+          </button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+
+  <footer id="contact">
+    <footer class="footer section">
+      <div class="footer-container bd-grid">
+        <h3 class="footer-copy">Nguyễn Trọng Hoàng</h3>
       </div>
     </footer>
-    <!-- fontawesome -->
-    <script
-      src="https://kit.fontawesome.com/28c0af3030.js"
-      crossorigin="anonymous"
-    ></script>
-    <!-- main js -->
-    <script src="main.js"></script>
-  </body>
+  </footer>
+
+
+  <a href="#educations" class="scroll-down show" id="scroll-down">
+    <i class="fas fa-chevron-down"></i>
+  </a>
+
+  <a href="#home" class="scroll-top" id="scroll-top">
+    <i class="fas fa-chevron-up"></i>
+  </a>
+
+
+  <script src="script.js"></script>
+</body>
+
 </html>
